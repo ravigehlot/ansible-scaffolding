@@ -1,8 +1,4 @@
-# Project Title
-
-Ansible Controller Scaffolding
-
-## Description
+# Ansible Controller Scaffolding
 
 Ansible Controller Scaffolding" is a project aimed at streamlining the setup and
 configuration process for Ansible controllers. The project focuses on providing
@@ -14,34 +10,62 @@ consistency, efficiency, and reliability in Ansible controller deployments.
 
 ## Requirements
 
-1. Install pip-tools
+1. Install NPM:
 
 ```bash
-pip3 install pip-tools
+sudo apt update
+sudo apt install npm
 ```
 
-2. Set up a Python virtual environment named `.venv`:
+2. Install Python3 required components:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+sudo apt install python3-full
+sudo apt install pip
+```
+
+3. Install the Fire Code font (optional)
+
+```bash
+sudo apt install fonts-firacode
 ```
 
 ## Installation
 
 Follow these steps to install and setup the project:
 
-1. Clone the repository to your local machine.
-
-2. Navigate to the project directory.
-
-3. Install the required Node.js packages:
+1. Clone the repository to your local machine:
 
 ```bash
-npm install
+git clone git@github.com:ravigehlot/ansible-scaffolding.git
 ```
 
-4. Install the required Python packages:
+2. Navigate to the project directory:
+
+```bash
+cd ansible-scaffolding
+```
+
+3. Set up a Python virtual environment named `.venv`:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+4. Install pip-tools:
+
+```bash
+pip3 install pip-tools
+```
+
+5. Compile requirements:
+
+```bash
+pip-compile requirements.in
+```
+
+6. Install the required Python packages:
 
 ```bash
 pip3 install -r requirements.txt
@@ -52,7 +76,22 @@ development.
 
 ## Usage
 
-Instructions on how to use your project.
+1. Install VSCode:
+
+```powershell
+winget install Microsoft.VisualStudioCode
+```
+
+2. Change paths on ansible.code-workspace
+   
+Visual Studio Code predefined variables do not work here.
+Change paths to match your environment.
+
+3. Open VSCode Workspace:
+
+File -> Open Workspace from File...
+Open ansible.code-workspace
+Click "install" on the Recommendations popup to get those VSCode extensions installed.
 
 ## Contributing
 
