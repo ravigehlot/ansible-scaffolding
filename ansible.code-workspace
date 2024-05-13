@@ -6,9 +6,11 @@
     }
   ],
   "settings": {
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "normal",
     "prettier.enable": true,
     "prettier.configPath": "/home/rgehlot/ansible/.prettierrc",
-    "editor.fontFamily": "'Fira Code'",
     "editor.fontSize": 18,
     "editor.fontLigatures": true,
     "editor.defaultFormatter": "redhat.ansible",
@@ -37,18 +39,11 @@
     "ansible.ansible.path": "/home/rgehlot/ansible/.venv/bin/ansible",
     "ansible.ansible.useFullyQualifiedCollectionNames": true,
     "files.associations": {
-      "*.yml": "ansible",
+      "*.yml": "ansible", // ansible does not support formatting.
       "*.yaml": "yaml"
     },
-    "[ansible]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "redhat.ansible",
-      "editor.detectIndentation": true,
-      "editor.insertSpaces": true,
-      "editor.autoIndent": "full"
-    },
     "ansible.executionEnvironment.enabled": false,
-    "ansibleServer.trace.server": "verbose"
+    "ansibleServer.trace.server": "verbose",
   },
   "extensions": {
     "recommendations": [

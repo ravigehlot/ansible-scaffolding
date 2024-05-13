@@ -24,12 +24,6 @@ sudo apt install python3-full
 sudo apt install pip
 ```
 
-3. Install the Fire Code font (optional)
-
-```bash
-sudo apt install fonts-firacode
-```
-
 ## Installation
 
 Follow these steps to install and setup the project:

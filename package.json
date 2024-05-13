@@ -20,6 +20,7 @@
   "author": "Ravi Gehlot",
   "license": "ISC",
   "devDependencies": {
+    "@fontsource/fira-code": "^5.0.18",
     "prettier": "^3.2.5",
     "prettier-plugin-jinja-template": "^1.4.0"
   }
