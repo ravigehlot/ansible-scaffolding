@@ -1,0 +1,62 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "prettier.enable": true,
+    "prettier.configPath": "/home/ravi/ansible/.prettierrc",
+    "editor.defaultFormatter": "redhat.ansible",
+    "editor.minimap.autohide": true,
+    "editor.folding": true,
+    "editor.foldingHighlight": true,
+    "editor.autoIndent": "full",
+    "editor.formatOnSave": true,
+    "editor.wrappingIndent": "same",
+    "editor.wordWrap": "on",
+    "github.copilot.advanced": {
+      "enabled": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "ansible.validation.lint.enabled": true,
+    "ansible.completion.provideRedirectModules": true,
+    "ansible.completion.provideModuleOptionAliases": true,
+    "redhat.telemetry.enabled": false,
+    "ansible.validation.lint.path": "/home/ravi/ansible/.venv/bin/ansible-lint",
+    "ansible.lightspeed.suggestions.enabled": false, // Requires a license to access to IBM watson Code Assistant.
+    "ansible.lightspeed.enabled": false, // Requires a license to access to IBM watson Code Assistant.
+    "ansible.python.activationScript": "/home/ravi/ansible/.venv/bin/activate",
+    "ansible.python.interpreterPath": "/home/ravi/ansible/.venv/bin/python3",
+    "ansible.ansibleNavigator.path": "/home/ravi/ansible/.venv/bin/ansible-navigator",
+    "ansible.ansible.path": "/home/ravi/ansible/.venv/bin/ansible",
+    "ansible.ansible.useFullyQualifiedCollectionNames": true,
+    "files.associations": {
+      "*.yml": "ansible",
+      "*.yaml": "yaml"
+    },
+    "[ansible]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "redhat.ansible",
+      "editor.detectIndentation": true,
+      "editor.insertSpaces": true,
+      "editor.autoIndent": "full"
+    },
+    "ansible.executionEnvironment.enabled": false,
+    "ansibleServer.trace.server": "verbose"
+  },
+  "extensions": {
+    "recommendations": [
+      "redhat.ansible",
+      "GitHub.copilot",
+      "GitHub.copilot-chat",
+      "yzhang.markdown-all-in-one",
+      "esbenp.prettier-vscode",
+      "ms-python.python",
+      "ms-python.debugpy",
+      "ms-vscode-remote.remote-wsl",
+      "redhat.vscode-yaml"
+    ]
+  }
+}
